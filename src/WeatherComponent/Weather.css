@@ -1,0 +1,133 @@
+/* Weather.css */
+.weather-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-container h2 {
+  margin: 0;
+  margin-right: 10px; /* 添加右边距 */
+}
+
+.city-select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.current-weather {
+  margin: 40px 0;
+}
+
+.temperature {
+  font-size: 2em;
+  color: #333;
+}
+
+.high-low {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.description {
+  font-size: 1.1em;
+  color: #777;
+  margin: 0.5em 0;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.aqi {
+  margin-bottom: 20px;
+}
+
+.aqi-value {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.aqi-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.aqi-bar .bar {
+  height: 20px;
+  background-color: #4caf50;
+}
+
+.aqi-text {
+  font-size: 1em;
+  color: #555;
+}
+
+.forecast {
+  margin-bottom: 20px;
+}
+
+.forecast-header {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.forecast-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forecast-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.forecast-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.forecast-item .hour {
+  font-size: 1em;
+  color: #333;
+}
+
+.forecast-item .temp {
+  font-size: 1em;
+  color: #555;
+}
+
+.loading {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}

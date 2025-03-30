@@ -72,5 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 天气查询组件
 
 在根目录下执行npm i安装项目依赖\
-npm start启动项目，本地访问http://localhost:3000/\
-目前仅支持上海 北京 广州 深圳 杭州五个城市的天气查询，后续可扩展\
+npm start启动项目，本地访问http://localhost:3000/查看效果\
+目前仅支持上海 北京 广州 深圳 杭州五个城市的天气查询，后续可扩展

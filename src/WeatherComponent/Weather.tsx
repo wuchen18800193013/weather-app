@@ -9,6 +9,7 @@ interface RealTimeWeather {
     time: string;
   };
   result: {
+    
     wd_desc: string;
     prs: number;
     rh: number;
